@@ -1,5 +1,4 @@
 const NodeMediaServer = require("node-media-server");
-var ffmpegCodec = require("ffmpeg");
 
 const config = {
 	rtmp: {
@@ -14,7 +13,7 @@ const config = {
 		allow_origin: "*",
 	},
 	relay: {
-		ffmpeg: "./ffmpeg-snapshot.tar/ffmpeg-snapshot/ffmpeg/libavcodec",
+		ffmpeg: "/usr/bin/ffmpeg",
 		tasks: [
 			{
 				app: "live",

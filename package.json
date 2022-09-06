@@ -1,6 +1,10 @@
 {
-  "dependencies": {
-    "ffmpeg": "^0.0.4",
-    "node-media-server": "^2.4.7"
-  }
+	"scripts": {
+		"start": "nodemon app1.js & nodemon app2.js & nodemon app3.js"
+	},
+	"dependencies": {
+		"ffmpeg": "^0.0.4",
+		"node-media-server": "^2.4.7",
+		"nodemon": "^2.0.19"
+	}
 }
